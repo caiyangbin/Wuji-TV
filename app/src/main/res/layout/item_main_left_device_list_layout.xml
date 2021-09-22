@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/touxiang" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvIp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="3"
+                android:text="魏国与北方蛮族柔然连年交战，老单于心存退意，但是其子冒顿（胡军 饰）生性暴戾，意图吞并中原。为御外敌，魏国征召壮丁入伍，为国效忠。考虑到父亲花弧年迈病重，其女花木兰（赵薇 饰）毅然决定女扮男装、替父从军。在军中，木兰因有昔日玩伴小虎（房祖名 饰）做掩护，尚未露出破绽。一次偶然的机会，副营长文泰（陈坤 饰）发现了木兰的秘密，但见她为人正直功夫了得，所以替她隐瞒身份。后来，文泰与木兰并肩作战，屡破柔然大军，立下战功，均获封将军。不过，文泰发现木兰在战场上感情用事极为冲动"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">无极</string>
+    <string name="home_title">所有設備</string>
+    <string name="confirm">確認</string>
+    <string name="update_hint">檢測到新版本，請按ok鍵升級。 </string>
+    <string name="init_msg">正在初始化程序</string>
+    <string name="start_server">正在啟動服務</string>
+    <string name="initing_hint">正在初始化程序</string>
+    <string name="youqing_hint">友情提示</string>
+    <string name="mount_hint">檢測到您未插入硬盤，可能會影響下載功能，是否繼續？ </string>
+    <string name="only_online">繼續，我只看在線</string>
+    <string name="yinpan_hint">稍等，我現在插入硬盤</string>
+    <string name="check_yinpan">正在檢測硬盤</string>
+    <string name="mounted_start">已檢測到硬盤，正在啟動服務</string>
+    <string name="welcome_hint">歡迎使用</string>
+    <string name="weline_doc">一個以SDVN技術構建的全球分佈式安全網絡。用戶只要連接到網絡，無論在何時何地，均可以快速安全的訪問辦公室和家裡的微型服務器，和客戶、同事協同工作，與朋友、家人分享資料等，不必擔心商業機密和私有信息的洩露。 </string>
+    <string name="xieyi">請先仔細閱讀用戶協議，如開始使用本軟件即表示同意本協議的全部內容。 </string>
+    <string name="next">下一步</string>
+    <string name="phone_app_hint">安裝手機端應用</string>
+    <string name="register_hint">1、要全面實現本軟件功能，需要安裝手機端。請掃描以下二維碼下載安裝。 </string>
+    <string name="register_hint_2">2、安裝完成後，請按照APP的引導，完成註冊和登錄，並進入設備頁，準備掃面設備二維碼。 </string>
+    <string name="previous">上一步</string>
+    <string name="shared_hint">添加共享設備</string>
+    <string name="shared_hint2">1、新賬號默認不含有他人分享的設備，您可以向朋友或家人索取他的設備二維碼，從而訪問到他們的設備。當然你也可以將你的設備二維碼分享給他們，讓他們訪問您的設備。 </string>
+    <string name="shred_hint3">2、下面是我們提供的演示用的二維碼，您可以用手機端掃描此二維碼，體驗訪問共享設備的功能。 </string>
+    <string name="shared_hin4">注：此二維碼僅用於功能演示，不保證穩定性和有效性。 </string>
+    <string name="success">完成</string>
+    <string name="bind_hint">請先掃碼綁定本設備，否則將無法正常使用功能。 </string>
+    <string name="bind_hint2">綁定本設備</string>
+    <string name="bind_hint3">1、請打開手機端APP，找到掃一掃，掃描本設備二維碼，完成綁定。 </string>
+    <string name="bind_hint4">2、綁定本機後，即可在本機瀏覽到他人分享的設備、進行文件下載或在線播放。同時還可以將本機的存儲設備分享給他人瀏覽。 </string>
+    <string name="run_app">快捷方式</string>
+    <string name="app_hint">選擇應用點擊OK鍵</string>
+    <string name="device_error_hint">獲取設備失敗,點擊OK鍵重試</string>
+    <string name="download_manager">管理</string>
+    <string name="dowloading">正在下載</string>
+    <string name="downloading_all_ex">所有正在下載任務</string>
+    <string name="downloaded">下載完成</string>
+    <string name="all_downloaded_file">所有已下載文件列表</string>
+    <string name="local_storage">本地存儲</string>
+    <string name="local_device">我的設備</string>
+    <string name="circle">圈子</string>
+    <string name="loading_circle">加載圈子</string>
+    <string name="loading_device">加載設備</string>
+    <string name="shared_device">朋友的設備</string>
+    <string name="net_normal_hint">是否恢復到正常網絡</string>
+    <string name="net_normal">已恢復到正常網絡</string>
+    <string name="net_jiedian_hint">是否切換到節點網絡</string>
+    <string name="net_jiedian">已切換到節點網絡</string>
+    <string name="hint">提示</string>
+    <string name="delete_ex">是否刪除此任務？ </string>
+    <string name="delete_ex2">（刪除後將不可恢復）</string>
+    <string name="cancel">取消</string>
+    <string name="download_ex_nothing">暫無下載任務</string>
+    <string name="pause">已暫停</string>
+    <string name="start">已開始</string>
+    <string name="ex_error">任務出錯</string>
+    <string name="chipanyiman">磁盤已滿</string>
+    <string name="exit_hint">是否要退出應用？ </string>
+    <string name="update_poster_hint">海報墻有更新信息，是否更新？\n若網速較慢需耐心等待。</string>
+    <string name="meiyouyinpan">當前沒有存儲設備</string>
+    <string name="online">雲端</string>
+    <string name="local">本地</string>
+    <string name="app">程序</string>
+    <string name="now_nothing_file">當前沒有已下載文件</string>
+
+    <string name="download">下載</string>
+    <string name="stage_photo">劇照</string>
+    <string name="trailer">預告片</string>
+    <string name="sample">片段</string>
+    <string name="play">播放</string>
+    <string name="min">分鐘</string>
+    <string name="director">導演：</string>
+    <string name="protagonist">主演：</string>
+    <string name="plot">簡介：</string>
+    <string name="plot_home">簡        介：</string>
+    <string name="plot_home_default">這是一臺去中心化的個人服務器(Personal Server)，朋友、家人、同事之間，無論在任何地點、任何時間，均可速安全地分享數據、協同工作</string>
+    <string name="flow_unit_price">流量單價：</string>
+    <string name="price_unit">積分/GB</string>
+    <string name="type">類        型：</string>
+    <string name="type_default">綜合</string>
+    <string name="no_poster_data_hint">暫無海報數據</string>
+    <string name="loading">加載中，請稍後…</string>
+    <string name="resource_loading">資源加載中…</string>
+    <string name="all">全部</string>
+    <string name="select_storage_location">选择存储位置</string>
+    <string name="press_the_menu_key_to_save">按菜单键存储</string>
+    <string name="fail">失败</string>
+    <string name="rebuild_hint">即將重建和刷新所有資源的海報數據庫。任務會在設備端自動完成，無需等候。</string>
+    <string name="rebuild">重建海報數據庫</string>
+    <string name="rebuild_success">重建完成</string>
+    <string name="update">更新</string>
+    <string name="search">搜索</string>
+    <string name="history">历史</string>
+    <string name="favorite">收藏</string>
+    <string name="my">我的</string>
+    <string name="vip">开通VIP</string>
+    <array name="poster_tab">
+        <item>全部</item>
+        <item>合集</item>
+        <item>劇集</item>
+        <item>原盤</item>
+        <item>4K</item>
+        <item>3D</item>
+        <item>未識別</item>
+    </array>
+</resources>

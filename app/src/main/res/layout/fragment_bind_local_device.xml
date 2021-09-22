@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@mipmap/bg_manage"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="70dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/bind_hint2"
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="/4"
+            android:textColor="#55ffffff"
+            android:textSize="35sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="50dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp">
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bind_hint3"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="#b8ffffff"
+                android:textSize="22sp" />
+
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/bind_hint4"
+                android:lineSpacingMultiplier="1.2"
+                android:textColor="#b8ffffff"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="550dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/ivRqCode"
+                android:layout_width="260dp"
+                android:layout_height="260dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="70dp"
+        android:layout_marginBottom="60dp">
+
+        <Button
+            android:id="@+id/previousBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/btn_selector"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="8dp"
+            android:text="@string/previous"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/btn_selector"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="8dp"
+            android:text="@string/next"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

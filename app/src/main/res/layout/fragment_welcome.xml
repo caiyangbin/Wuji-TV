@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/splashRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/big_big_bg"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/logo"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/registerRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_manage"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/welcome_hint"
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
+
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="35sp" />
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="/4"
+                android:textColor="#55ffffff"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="70dp"
+            android:text="@string/weline_doc"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="#b8ffffff"
+            android:textSize="22sp" />
+
+
+        <RelativeLayout
+            android:id="@+id/webViewRoot"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginTop="20dp"
+            android:padding="4dp">
+
+            <WebView
+                android:id="@+id/webView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+
+        </RelativeLayout>
+
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingHorizontal="70dp"
+            android:text="@string/xieyi"
+            android:textColor="#b8ffffff"
+            android:textSize="22sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingHorizontal="70dp"
+            android:layout_marginBottom="60dp">
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/btn_selector"
+                android:paddingHorizontal="25dp"
+                android:paddingVertical="8dp"
+                android:text="@string/next"
+                android:textColor="#fff"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

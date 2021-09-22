@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="c_50ffffff">#80ffffff</color>
+    <color name="c_ffffff">#ffffff</color>
+    <color name="c_20000000">#BF000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="page_bg">#23363D</color>
+    <color name="sidebar_bg">#000000</color>
+    <color name="focus_bg">#FFFFFF</color>
+    <color name="focus_font">#000000</color>
+    <color name="normal_font">#ffffff</color>
+    <color name="normal_bg">#8a8a8a</color>
+    <color name="blue">#2196F3</color>
+
+
+</resources>

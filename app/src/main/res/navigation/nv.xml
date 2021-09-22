@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nv"
+    app:startDestination="@id/devicesFragment">
+    <fragment
+        android:id="@+id/devicesFragment"
+        android:name="com.wuji.tv.ui.fragment.DevicesFragment"
+        android:label="DevicesFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_fileBrowserFragment"
+            app:destination="@id/fileBrowserFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_localFragment"
+            app:destination="@id/localFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_downloadedBrowserFragment"
+            app:destination="@id/downloadedBrowserFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_downloadingFragment"
+            app:destination="@id/downloadingFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_posterFragment"
+            app:destination="@id/posterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_appsFragment"
+            app:destination="@id/appsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/appsFragment"
+        android:name="com.wuji.tv.ui.fragment.AppsFragment"
+        android:label="AppsFragment" />
+    <fragment
+        android:id="@+id/fileBrowserFragment"
+        android:name="com.wuji.tv.ui.fragment.RemoteFileBrowserFragment"
+        android:label="FileBrowserFragment" >
+        <action
+            android:id="@+id/action_fileBrowserFragment_to_musicPlayFragment"
+            app:destination="@id/musicPlayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/musicPlayFragment"
+        android:name="com.wuji.tv.ui.fragment.MusicPlayFragment"
+        android:label="MusicPlayFragment" />
+    <fragment
+        android:id="@+id/localFragment"
+        android:name="com.wuji.tv.ui.fragment.LocalFragment"
+        android:label="LocalFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_localFileBrowserFragment"
+            app:destination="@id/localFileBrowserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/localFileBrowserFragment"
+        android:name="com.wuji.tv.ui.fragment.LocalFileBrowserFragment"
+        android:label="LocalFileBrowserFragment" />
+    <fragment
+        android:id="@+id/downloadedBrowserFragment"
+        android:name="com.wuji.tv.ui.fragment.DownloadedFragment"
+        android:label="DownloadedBrowserFragment" />
+    <fragment
+        android:id="@+id/downloadingFragment"
+        android:name="com.wuji.tv.ui.fragment.DownloadingFragment"
+        android:label="DownloadingFragment" />
+
+
+    <fragment
+        android:id="@+id/posterFragment"
+        android:name="com.wuji.tv.ui.fragment.PosterFragment"
+        android:label="poster_fragment"
+        tools:layout="@layout/fragment_poster" >
+        <action
+            android:id="@+id/action_posterFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_posterFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.wuji.tv.ui.fragment.ListFragment"
+        android:label="list_fragment"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.wuji.tv.ui.fragment.DetailFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_listFragment_to_localSelectFragment"
+            app:destination="@id/fileBrowserFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_stagePhotoFragment"
+            app:destination="@id/stagePhotoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stagePhotoFragment"
+        android:name="com.wuji.tv.ui.fragment.StagePhotoFragment"
+        android:label="StagePhotoFragment" />
+</navigation>

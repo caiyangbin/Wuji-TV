@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="40dp"
+    android:layout_marginStart="14dp"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:gravity="center"
+    android:id="@+id/tabNameTextView"
+    android:textColor="@drawable/selector_tab_text"
+    android:background="@drawable/selector_btn_detail"
+    android:textSize="20sp"/>

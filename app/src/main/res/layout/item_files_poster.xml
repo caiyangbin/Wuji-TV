@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="@drawable/shape_round_corner_item_bg_normal"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@mipmap/demo_poster" />
+
+    <com.admin.libcommonui.widget.AlwaysMarqueeTextView
+        android:id="@+id/tvTitle"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:singleLine="true" />
+
+
+</LinearLayout>

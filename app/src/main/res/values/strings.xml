@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">WUJI</string>
+    <string name="home_title">所有设备</string>
+    <string name="confirm">确认</string>
+    <string name="update_hint">检测到新版本，请按ok键升级。</string>
+    <string name="init_msg">正在初始化程序</string>
+    <string name="start_server">正在启动服务</string>
+    <string name="initing_hint">正在初始化程序</string>
+    <string name="youqing_hint">友情提示</string>
+    <string name="mount_hint">检测到您未插入硬盘，可能会影响下载功能，是否继续？</string>
+    <string name="only_online">忽略此问题，请继续</string>
+    <string name="yinpan_hint">稍等，我现在插入硬盘</string>
+    <string name="check_yinpan">正在检测硬盘</string>
+    <string name="mounted_start">已检测到硬盘，正在启动服务</string>
+    <string name="welcome_hint">欢迎使用</string>
+    <string name="weline_doc">一个以SDVN技术构建的全球分布式安全网络。用户只要连接到网络，无论在何时何地，均可以快速安全的访问办公室和家里的微型服务器，和客户、同事协同工作，与朋友、家人分享资料等，不必担心商业机密和私有信息的泄露。</string>
+    <string name="xieyi">请先仔细阅读用户协议，如开始使用本软件即表示同意本协议的全部内容。</string>
+    <string name="next">下一步</string>
+    <string name="phone_app_hint">安装手机端应用</string>
+    <string name="register_hint">1、要全面实现本软件功能，需要安装手机端。请扫描以下二维码下载安装。</string>
+    <string name="register_hint_2">2、安装完成后，请按照APP的引导，完成注册和登录，并进入设备页，准备扫面设备二维码。</string>
+    <string name="previous">上一步</string>
+    <string name="shared_hint">添加共享设备</string>
+    <string name="shared_hint2">1、新账号默认不含有他人分享的设备，您可以向朋友或家人索取他的设备二维码，从而访问到他们的设备。当然你也可以将你的设备二维码分享给他们，让他们访问您的设备。</string>
+    <string name="shred_hint3">2、下面是我们提供的演示用的二维码，您可以用手机端扫描此二维码，体验访问共享设备的功能。</string>
+    <string name="shared_hin4">注：此二维码仅用于功能演示，不保证稳定性和有效性。</string>
+    <string name="success">完成</string>
+    <string name="bind_hint">请先扫码绑定本设备，否则将无法正常使用功能。</string>
+    <string name="bind_hint2">绑定本设备</string>
+    <string name="bind_hint3">1、请打开手机端APP，找到扫一扫，扫描本设备二维码，完成绑定。</string>
+    <string name="bind_hint4">2、绑定本机后，即可在本机浏览到他人分享的设备、进行文件下载或在线播放。同时还可以将本机的存储设备分享给他人浏览。</string>
+    <string name="run_app">快捷方式</string>
+    <string name="app_hint">选择应用点击OK键</string>
+    <string name="device_error_hint">获取设备失败,点击OK键重试</string>
+    <string name="download_manager">管理</string>
+    <string name="dowloading">正在下载</string>
+    <string name="downloading_all_ex">所有正在下载任务</string>
+    <string name="downloaded">下载完成</string>
+    <string name="all_downloaded_file">所有已下载文件列表</string>
+    <string name="local_storage">本地存储</string>
+    <string name="local_device">我的设备</string>
+    <string name="circle">圈子</string>
+    <string name="loading_circle">加载圈子</string>
+    <string name="loading_device">加载设备</string>
+    <string name="shared_device">朋友的设备</string>
+    <string name="net_normal_hint">是否恢复到正常网络</string>
+    <string name="net_normal">已恢复到正常网络</string>
+    <string name="net_jiedian_hint">是否切换到节点网络</string>
+    <string name="net_jiedian">已切换到节点网络</string>
+    <string name="hint">提示</string>
+    <string name="delete_ex">是否删除此任务？</string>
+    <string name="delete_ex2">（删除后将不可恢复）</string>
+    <string name="cancel">取消</string>
+    <string name="download_ex_nothing">暂无下载任务</string>
+    <string name="pause">已暂停</string>
+    <string name="start">已开始</string>
+    <string name="ex_error">任务出错</string>
+    <string name="chipanyiman">磁盘已满</string>
+    <string name="exit_hint">是否要退出应用？</string>
+    <string name="update_poster_hint">The poster wall has updated information, whether to update?</string>
+    <string name="meiyouyinpan">当前没有存储设备</string>
+    <string name="online">云端</string>
+    <string name="local">本地</string>
+    <string name="app">程序</string>
+    <string name="now_nothing_file">当前没有已下载文件</string>
+
+    <string name="download">Download</string>
+    <string name="stage_photo">Stage photo</string>
+    <string name="trailer">Trailer</string>
+    <string name="sample">Sample</string>
+    <string name="play">Play</string>
+    <string name="min">min</string>
+    <string name="director">Director:</string>
+    <string name="protagonist">Protagonist:</string>
+    <string name="plot">Plot:</string>
+    <string name="plot_home">Plot:</string>
+    <string name="plot_home_default">It is a decentralized Personal Server that allows friends, family, and colleagues to share data and collaborate quickly and securely, anywhere, anytime</string>
+    <string name="flow_unit_price">Flow unit price:</string>
+    <string name="price_unit">Integral/GB</string>
+    <string name="type">Type:</string>
+    <string name="type_default">Synthesize</string>
+    <string name="no_poster_data_hint">No poster data is available</string>
+    <string name="loading">Loading…</string>
+    <string name="resource_loading">Resource loading…</string>
+    <string name="all">All</string>
+    <string name="select_storage_location">Select storage location</string>
+    <string name="press_the_menu_key_to_save">Press the menu key to save</string>
+    <string name="fail">失败</string>
+    <string name="rebuild_hint">The poster wall information will be updated soon.</string>
+    <string name="rebuild">Rebuild poster</string>
+    <string name="rebuild_success">Rebuild success</string>
+    <string name="update">Update</string>
+    <string name="search">Search</string>
+    <string name="history">History</string>
+    <string name="favorite">Favorite</string>
+    <string name="my">My</string>
+    <string name="vip">Open the VIP</string>
+    <array name="poster_tab">
+        <item>All</item>
+        <item>Compilations</item>
+        <item>TV-Series</item>
+        <item>Primary disk</item>
+        <item>4K</item>
+        <item>3D</item>
+        <item>Unidentified</item>
+    </array>
+</resources>

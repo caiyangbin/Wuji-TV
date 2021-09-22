@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivTypeIcon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@mipmap/ic_home_sjx"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:orientation="vertical">
+        <!--<TextView
+            android:id="@+id/viewTop"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"/>-->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/tvTitleDown"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:text="应用内快捷运行本机已安装的APP应用"
+            android:textColor="#c8ffffff"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg_manage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.52"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="50dp">
+
+        <ImageView
+            android:id="@+id/ivMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_music"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="韩红-远方的孩子.mp3"
+            android:textColor="#ffffff"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.29"
+        android:orientation="vertical"
+        android:background="#88000000">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingHorizontal="50dp">
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:id="@+id/tvTimeLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2:10"
+                android:textColor="#ffffff"
+                android:textSize="14sp"/>
+            <com.admin.libcommonui.widget.CustomFontsTextView
+                android:id="@+id/tvTimeRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="5:10"
+                android:textColor="#ffffff"
+                android:textSize="14sp"/>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_below="@+id/tvTimeRight"
+                android:layout_marginTop="4dp"
+                android:layout_marginHorizontal="15dp"
+                android:progressDrawable="@drawable/pb_home"
+                android:indeterminateOnly="false"
+                android:max="100"
+                android:progress="50"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_type_01"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_left"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_play"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_right"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_stop"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="66dp"
+                android:layout_height="66dp"
+                android:layout_marginHorizontal="22dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:focusable="true"
+                android:background="@drawable/selector_app_bg">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_music_more"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

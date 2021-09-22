@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:minWidth="120dp"
+    android:paddingHorizontal="20dp"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:gravity="center"
+    android:maxLength="10"
+    android:id="@+id/tabNameTextView"
+    android:textColor="@drawable/selector_poster_tab_text"
+    android:background="@drawable/selector_poster_tab_bg"
+    android:textSize="28sp"/>

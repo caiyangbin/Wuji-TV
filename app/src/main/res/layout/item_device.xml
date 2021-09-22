@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:focusable="true">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:duplicateParentState="true">
+        <LinearLayout
+            android:id="@+id/ivIconLayout"
+            android:layout_width="256dp"
+            android:layout_height="144dp"
+            android:layout_marginEnd="2dp"
+            android:duplicateParentState="true">
+            <com.wuji.tv.widget.RoundImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:scaleType="centerCrop"
+                android:background="@mipmap/ic_home_device" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ivIconBoxLayout"
+            android:layout_width="256dp"
+            android:layout_height="144dp"
+            android:layout_marginEnd="2dp"
+            android:duplicateParentState="true"
+            android:background="@drawable/selector_device_bg"
+            android:orientation="horizontal"
+            android:gravity="right">
+            <com.wuji.tv.widget.RoundImageView
+                android:id="@+id/ivSn"
+                android:visibility="gone"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="15dp"
+                android:scaleType="centerCrop"
+                android:background="@mipmap/ic_sn" />
+        </LinearLayout>
+        <com.admin.libcommonui.widget.CustomFontsTextView
+            android:id="@+id/tvNewNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:singleLine="true"
+            android:paddingHorizontal="6dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:background="@drawable/bg_new_number"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frameLayout"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:gravity="center_horizontal|bottom"
+        android:paddingHorizontal="10dp"
+        android:duplicateParentState="true"
+        android:textColor="@drawable/selector_poster_tab_text"
+        android:textSize="20sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

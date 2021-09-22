@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#8a8a8a" />
+    <corners
+        android:bottomLeftRadius="180dp"
+        android:bottomRightRadius="180dp"
+        android:topLeftRadius="180dp"
+        android:topRightRadius="180dp" />
+    <!--边框透明是为了防止，item失焦之后出现白边-->
+    <stroke
+        android:width="3dp"
+        android:color="#00000000" />
+</shape>
+
